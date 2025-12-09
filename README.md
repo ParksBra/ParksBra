@@ -19,7 +19,7 @@ In my most recent knowledge ventures, I've been working towards rounding-off my 
 | [Platform Storage](https://github.com/ParksBra/home-k8s-tf-platform-storage) | Terraform to manage the platform's storage manifests and Helm charts:<br>&ensp;&bull; OpenEBS - Primary persistant storage<br>&ensp;&bull; Minio - Velero backup storage<br>&ensp;&bull; Velero - Cluster state backups |
 | <u><i>Service Repos</u></i> |
 | [Home Assistant](https://github.com/ParksBra/home-k8s-tf-service-haenv) | <u>Terraform to manage my Home Assistant environment's manifests and Helm charts:<br>&ensp;&bull; Home Assistant - Home automation provider<br>&ensp;&bull; Mosquitto - MQTT Broker between Zigbee2mqtt and Home Assistant<br>&ensp;&bull; Zigbee2Mqtt - More functionality versus native HA integration<br>&ensp;&bull; Akri - Provides Zigbee2Mqtt's USB radio connection |
-| [Kubernetes Dashboard](https://github.com/ParksBra/home-k8s-tf-service-k8sdash) | Terraform to manage my Kubernetes Dashboard's manifests and Helm charts<br>&ensp;&bull; Kubernetes Dashboard|
+| [Kubernetes Dashboard](https://github.com/ParksBra/home-k8s-tf-service-k8sdash) | Terraform to manage my Kubernetes Dashboard's manifests and Helm charts:<br>&ensp;&bull; Kubernetes Dashboard|
 | <u><i>Shared Terraform Repos</u></i> |
 | [Terraform Modules](https://github.com/ParksBra/home-k8s-tf-lib) | Custom Terraform modules relevant to my Kubernetes Cluster |
 | <i><u>Azure Devops Repos</u></i> |
