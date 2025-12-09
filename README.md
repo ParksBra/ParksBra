@@ -1,16 +1,27 @@
-## Hi there 👋
+# Brandon Parks
 
-<!--
-**ParksBra/ParksBra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! My name is Brandon and I am a mid-career DevOps engineer.
 
-Here are some ideas to get you started:
+I am currently on the search for my next opportunity to advance my career.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+If you would like to know more about my experience, please check my [LinkedIn](https://www.linkedin.com/in/ParksBra/).
+
+## Kubernetes Home Lab (home-k8s)
+
+In my most recent knowledge ventures, I've been working towards rounding-off my skillset with Kubernetes while strengthening my CI/CD and DevOps concepts.
+
+### Relevant Repositories
+| Repository  | Description |
+| - | - |
+| <u><i>Platform Repos</u></i> |
+| [Cluster Base](https://github.com/ParksBra/home-k8s-cluster-base) | Ansible roles to provision the Kubernetes cluster and configure the underlying hosts |
+| [Platform Network](https://github.com/ParksBra/home-k8s-tf-platform-network) | Terraform to manage the platform's network manifests and Helm charts:<br>&ensp;&bull; Calico/Tigera Operator - Cluster Network Interface<br>&ensp;&bull; Tailscale - Secure external ingress for hosted services<br>&ensp;&bull; Ingress-Nginx - Nginx level customization, access enabled through Tailscale<br>&ensp;&bull; Cert-Manager - Seamless auto-generated and auto-rotated web certificates |
+| [Platform Storage](https://github.com/ParksBra/home-k8s-tf-platform-storage) | Terraform to manage the platform's storage manifests and Helm charts:<br>&ensp;&bull; OpenEBS - Primary persistant storage<br>&ensp;&bull; Minio - Velero backup storage<br>&ensp;&bull; Velero - Cluster state backups |
+| <u><i>Service Repos</u></i> |
+| [Home Assistant](https://github.com/ParksBra/home-k8s-tf-service-haenv) | <u>Terraform to manage my Home Assistant environment's manifests and Helm charts:<br>&ensp;&bull; Home Assistant - Home automation provider<br>&ensp;&bull; Mosquitto - MQTT Broker between Zigbee2mqtt and Home Assistant<br>&ensp;&bull; Zigbee2Mqtt - More functionality versus native HA integration<br>&ensp;&bull; Akri - Provides Zigbee2Mqtt's USB radio connection |
+| [Kubernetes Dashboard](https://github.com/ParksBra/home-k8s-tf-service-k8sdash) | Terraform to manage my Kubernetes Dashboard's manifests and Helm charts<br>&ensp;&bull; Kubernetes Dashboard|
+| <u><i>Shared Terraform Repos</u></i> |
+| [Terraform Modules](https://github.com/ParksBra/home-k8s-tf-lib) | Custom Terraform modules relevant to my Kubernetes Cluster |
+| <i><u>Azure Devops Repos</u></i> |
+| [ADO Templates](https://github.com/ParksBra/home-k8s-ado-templates) | Templates for use across my Azure DevOps CI/CD pipelines |
+| [Local ADO Agents](https://github.com/ParksBra/local-ado-agents) | Docker Compose file for local Azure DevOps agents |
