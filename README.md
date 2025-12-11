@@ -10,7 +10,7 @@ If you would like to know more about my experience, please check my [LinkedIn](h
 
 In my most recent knowledge ventures, I've been working towards rounding-off my skillset with Kubernetes while strengthening my CI/CD and DevOps concepts.
 
-This lab is hosted on three separate Raspberry Pi 5's running Raspberry Pi OS Lite; One control-plane and two worker nodes.
+This lab is hosted on three separate Raspberry Pi 5's running Ubuntu Server 25; One control-plane and two worker nodes.
 
 ### Relevant Repositories
 | Repository  | Description |
